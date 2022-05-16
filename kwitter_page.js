@@ -79,7 +79,7 @@ firebase.database().ref (room_name).push({
   like: 0
 });
 document.getElementById("msg").value = "";
-}
+} 
 
 firebase.database(). ref (room_name). push({
   name:user_name,
